@@ -17,5 +17,28 @@ object DrawApp extends App {
     println("_______________")
     println(s"\t${group.mkString("\n\t")}")
   }
+  println()
+  println("GROUP 1 1st vs GROUP 8 2nd                                                                                                         GROUP 5 1st vs GROUP 7 2nd")
+  println("--------------------------                                                                                                         --------------------------")
+  println("                         ---                                                                                                    ---")
+  println("                            ---                                                                                              ---")
+  println("                               ---   QUARTER FINAL                                                         QUARTER FINAL  ---")
+  println("                            ---                   ---                                                  ---                   ---")
+  println("                         ---                        ---                                              ---                        ---")
+  println("GROUP 7 1st vs GROUP 5 2nd                            ---                                         ---                              GROUP 6 1st vs GROUP 2 2nd")
+  println("--------------------------                              ---                                    ---                                        --------------------------")
+  println("                                                           ---                              ---")
+  println("                                                               SEMIFINAL -- FINAL -- SEMIFINAL")
+  println("GROUP 2 1st vs GROUP 6 2nd                                  ---                               ---                                  GROUP 3 1st vs GROUP 1 2nd")
+  println("--------------------------                              ---                                      ---                               --------------------------")
+  println("                         ---                         ---                                            ---                         ---")
+  println("                            ---                   ---                                                  ---                   ---")
+  println("                               ---   QUARTER FINAL                                                         QUARTER FINAL  ---")
+  println("                            ---                                                                                              ---")
+  println("                         ---                                                                                                    ---")
+  println("GROUP 4 1st vs GROUP 3 2nd                                                                                                         GROUP 8 1st vs GROUP 4 2nd")
+  println("--------------------------                                                                                                          --------------------------")
+
+
 
 }
