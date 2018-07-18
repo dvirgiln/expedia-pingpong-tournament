@@ -26,7 +26,7 @@ object DrawApp extends App {
   println("                            ---                   ---                                                  ---                   ---")
   println("                         ---                        ---                                              ---                        ---")
   println("GROUP 7 1st vs GROUP 5 2nd                            ---                                         ---                              GROUP 6 1st vs GROUP 2 2nd")
-  println("--------------------------                              ---                                    ---                                        --------------------------")
+  println("--------------------------                              ---                                    ---                                 --------------------------")
   println("                                                           ---                              ---")
   println("                                                               SEMIFINAL -- FINAL -- SEMIFINAL")
   println("GROUP 2 1st vs GROUP 6 2nd                                  ---                               ---                                  GROUP 3 1st vs GROUP 1 2nd")
