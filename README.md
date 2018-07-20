@@ -1,8 +1,8 @@
-##INTRODUCCION
+## INTRODUCCION
 
 Repository that creates random groups for a tournament.
 
-##RULES
+## RULES
 
 * Group matches are played as the best of 5 sets to 11 points. 2 serves per player.
 * Classificatory matches are played as the best of 5 to 21 points. 5 serves per player.
@@ -39,7 +39,7 @@ Repository that creates random groups for a tournament.
     GROUP 4 1st vs GROUP 3 2nd                                                                                                         GROUP 8 1st vs GROUP 4 2nd
     ==========================                                                                                                          ==========================
 
-###Improvers Round
+### Improvers Round
 
     GROUP 1 3th vs GROUP 8 4th                                                                                                         GROUP 5 3th vs GROUP 7 4th
     --------------------------                                                                                                         --------------------------
