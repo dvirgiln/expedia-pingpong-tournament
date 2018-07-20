@@ -4,9 +4,16 @@ Repository that creates random groups for a tournament.
 
 ##RULES
 
-* Group matches are played as the best of 5 sets of 11 points. 2 serves per player.
-* Classificatory matches are played as the best of 5 21 points. 5 serves per player.
-* There is not specific order to play your games. You can arrange with the other players when to play.
+* Group matches are played as the best of 5 sets to 11 points. 2 serves per player.
+* Classificatory matches are played as the best of 5 to 21 points. 5 serves per player.
+* There is no specific order when playing your games. You can arrange with the other players when to play.
+* In case of tie within groups, it will count:
+    * 2 players tie: Direct result between players.
+    * 3 or more players tie: players with more direct games won.
+        * In case there is a tie in direct numbers of games won -> Number of sets won - Number of sets lost.
+        * In case there is a tie in the number of sets -> Total number of points made - Total number of points lost.
+
+* If a player retire from the tournament, then the result of the games will be 11-5 11-5 11-5
 
 
 ### ProRound
