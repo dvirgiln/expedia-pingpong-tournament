@@ -1,16 +1,22 @@
 package com.david
 
+import scala.util.Random
+
 object DrawApp extends App {
   val favourites = scala.io.Source.fromFile("src/main/resources/groupFavourites.txt").getLines().toList
   val group2 = scala.io.Source.fromFile("src/main/resources/secondGroup.txt").getLines().toList
   val group3 = scala.io.Source.fromFile("src/main/resources/thirthGroup.txt").getLines().toList
-  val group4 = scala.io.Source.fromFile("src/main/resources/fourthGroup.txt").getLines().toList
-  val group4full= (1 to (group4.length % 8)).foldLeft(List[String]())((acum, _) => "" :: acum) ::: group4
+  val group4Lines = Random.shuffle(scala.io.Source.fromFile("src/main/resources/fourthGroup.txt").getLines().toList)
 
-  val group4Shuffled= scala.util.Random.shuffle(group4full)
+  val toBeAddedGroup4= group4Lines.take(group4Lines.length%8)
+  val group4Shuffled= group4Lines.drop(group4Lines.length%8)
+  val group4Empties= (1 to (8 - toBeAddedGroup4.length)).foldLeft(List[String]())((acum, _) => "" :: acum) ::: toBeAddedGroup4
+
+
+
   val group4Splited=(1 to group4Shuffled.length/8).foldLeft((List[List[String]](),group4Shuffled)){case ((result, rest), _) => (rest.take(8) :: result, rest.drop(8))}
 
-  val allGroups= scala.util.Random.shuffle(favourites) :: scala.util.Random.shuffle(group3) :: scala.util.Random.shuffle(group2) :: group4Splited._1
+  val allGroups= group4Empties :: scala.util.Random.shuffle(favourites) :: scala.util.Random.shuffle(group3) :: scala.util.Random.shuffle(group2) :: group4Splited._1
 
   val results = allGroups.map(g => g.zipWithIndex).flatten.groupBy(_._2).map(_._2).toList.map(l => l.map(_._1).filter(!_.isEmpty))
   val groupByIndex = (1 to 8) zip ('A' to 'H')

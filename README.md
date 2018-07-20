@@ -15,6 +15,26 @@ Repository that creates random groups for a tournament.
 
 * If a player retire from the tournament, then the result of the games will be 11-5 11-5 11-5
 
+## GROUPS
+
+    GROUP A                        GROUP C                         GROUP E                           GROUP G
+    _______________                _______________                 _______________                   _______________
+        Srinivas Pachari               Taha Abdalla                    Marcos Lopes                      David Virgil
+        Stephen Willis                 Methus Detchusananart           Chase Farmer                      Patrick McGeever
+        Mauro Doglio                   Nick Walls                      Thomas Morgan                     Vincent Kahl
+        Irina Carabella-Kozeni         Marty Reynoldson                Matthew Newberry                  Krisztina Jakoi
+        Umar Mustafa                   James Brighton                  Abhimanyu Gupta                   Prad Manickam
+        Ramneet Bhasin                 Kurt WIlliams                   Amaia Alustiza                    Ravneet Mann
+    GROUP B                        GROUP D                         GROUP F                           GROUP H
+    _______________                _______________                 _______________                   _______________
+        Peter Ho                       Catalin-Cristian Vladoiu        Liza Skripka                      Sean Jackson
+        Nathan Adams                   Janagan Gananathan              Krishna Moola                     Benjamin Barros
+        Praveen Emmadi                 Hicham Bouazamour               David Fowler                      Daniel Aparicio
+        Velislav Velinov               Emmanuel Pampolina              Rasmus Lof                        Harvey Williams
+        Randal Boyle                   Joaquim Carvalho                Marco Ballerini                   Nicolas Combremont
+        Sam Relf                       Gopendra Mishra                 Tom North                         Joan Mesquida Camps
+                                                                       Luis Rodriguez de la Oliva
+
 
 ### ProRound
 
