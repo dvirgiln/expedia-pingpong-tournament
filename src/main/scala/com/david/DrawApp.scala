@@ -26,25 +26,25 @@ object DrawApp extends App {
 
   def defineGroups(pos: (String, String))={
 
-    println(s"GROUP 1 ${pos._1} vs GROUP 8 ${pos._2}                                                                                                         GROUP 5 ${pos._1} vs GROUP 7 ${pos._2}")
+    println(s"GROUP A ${pos._1} vs GROUP H ${pos._2}                                                                                                         GROUP E ${pos._1} vs GROUP G ${pos._2}")
     println("--------------------------                                                                                                         --------------------------")
     println("                         ---                                                                                                    ---")
     println("                            ---                                                                                              ---")
     println("                               ---   QUARTER FINAL                                                         QUARTER FINAL  ---")
     println("                            ---                   ---                                                  ---                   ---")
     println("                         ---                        ---                                              ---                        ---")
-    println(s"GROUP 7 ${pos._1} vs GROUP 5 ${pos._2}                            ---                                         ---                              GROUP 6 ${pos._1} vs GROUP 2 ${pos._2}")
+    println(s"GROUP G ${pos._1} vs GROUP E ${pos._2}                            ---                                         ---                              GROUP F ${pos._1} vs GROUP B ${pos._2}")
     println("--------------------------                              ---                                    ---                                 --------------------------")
     println("                                                           ---                              ---")
     println("                                                               SEMIFINAL -- FINAL -- SEMIFINAL")
-    println(s"GROUP 2 ${pos._1} vs GROUP 6 ${pos._2}                                  ---                               ---                                  GROUP 3 ${pos._1} vs GROUP 1 ${pos._2}")
+    println(s"GROUP B ${pos._1} vs GROUP F ${pos._2}                                  ---                               ---                                  GROUP C ${pos._1} vs GROUP A ${pos._2}")
     println("--------------------------                              ---                                      ---                               --------------------------")
     println("                         ---                         ---                                            ---                         ---")
     println("                            ---                   ---                                                  ---                   ---")
     println("                               ---   QUARTER FINAL                                                         QUARTER FINAL  ---")
     println("                            ---                                                                                              ---")
     println("                         ---                                                                                                    ---")
-    println(s"GROUP 4 ${pos._1} vs GROUP 3 ${pos._2}                                                                                                         GROUP 8 ${pos._1} vs GROUP 4 ${pos._2}")
+    println(s"GROUP D ${pos._1} vs GROUP C ${pos._2}                                                                                                         GROUP H ${pos._1} vs GROUP D ${pos._2}")
     println("--------------------------                                                                                                          --------------------------")
 
 

@@ -18,46 +18,46 @@ Repository that creates random groups for a tournament.
 
 ### ProRound
 
-    GROUP 1 1st vs GROUP 8 2nd                                                                                                         GROUP 5 1st vs GROUP 7 2nd
-    ==========================                                                                                                         ==========================
-                             ===                                                                                                    ===
-                                ===                                                                                              ===
-                                   ===   QUARTER FINAL                                                         QUARTER FINAL  ===
-                                ===                   ===                                                  ===                   ===
-                             ===                        ===                                              ===                        ===
-    GROUP 7 1st vs GROUP 5 2nd                            ===                                         ===                              GROUP 6 1st vs GROUP 2 2nd
-    ==========================                              ===                                    ===                                 ==========================
-                                                               ===                              ===
-                                                                   SEMIFINAL == FINAL == SEMIFINAL
-    GROUP 2 1st vs GROUP 6 2nd                                  ===                               ===                                  GROUP 3 1st vs GROUP 1 2nd
-    ==========================                              ===                                      ===                               ==========================
-                             ===                         ===                                            ===                         ===
-                                ===                   ===                                                  ===                   ===
-                                   ===   QUARTER FINAL                                                         QUARTER FINAL  ===
-                                ===                                                                                              ===
-                             ===                                                                                                    ===
-    GROUP 4 1st vs GROUP 3 2nd                                                                                                         GROUP 8 1st vs GROUP 4 2nd
-    ==========================                                                                                                          ==========================
-
-### Improvers Round
-
-    GROUP 1 3th vs GROUP 8 4th                                                                                                         GROUP 5 3th vs GROUP 7 4th
+    GROUP A 1st vs GROUP H 2nd                                                                                                         GROUP E 1st vs GROUP G 2nd
     --------------------------                                                                                                         --------------------------
                              ---                                                                                                    ---
                                 ---                                                                                              ---
                                    ---   QUARTER FINAL                                                         QUARTER FINAL  ---
                                 ---                   ---                                                  ---                   ---
-                             ---                        ---                                              ---                        ---
-    GROUP 7 3th vs GROUP 5 4th                            ---                                         ---                              GROUP 6 3th vs GROUP 2 4th
+                         ---                        ---                                              ---                        ---
+    GROUP G 1st vs GROUP E 2nd                            ---                                         ---                              GROUP F 1st vs GROUP B 2nd
     --------------------------                              ---                                    ---                                 --------------------------
                                                                ---                              ---
                                                                    SEMIFINAL -- FINAL -- SEMIFINAL
-    GROUP 2 3th vs GROUP 6 4th                                  ---                               ---                                  GROUP 3 3th vs GROUP 1 4th
+    GROUP B 1st vs GROUP F 2nd                                  ---                               ---                                  GROUP C 1st vs GROUP A 2nd
     --------------------------                              ---                                      ---                               --------------------------
                              ---                         ---                                            ---                         ---
                                 ---                   ---                                                  ---                   ---
                                    ---   QUARTER FINAL                                                         QUARTER FINAL  ---
                                 ---                                                                                              ---
                              ---                                                                                                    ---
-    GROUP 4 3th vs GROUP 3 4th                                                                                                         GROUP 8 3th vs GROUP 4 4th
+    GROUP D 1st vs GROUP C 2nd                                                                                                         GROUP H 1st vs GROUP D 2nd
+    --------------------------                                                                                                          --------------------------
+
+### Improvers Round
+
+    GROUP A 3th vs GROUP H 4th                                                                                                         GROUP E 3th vs GROUP G 4th
+    --------------------------                                                                                                         --------------------------
+                             ---                                                                                                    ---
+                                ---                                                                                              ---
+                                   ---   QUARTER FINAL                                                         QUARTER FINAL  ---
+                                ---                   ---                                                  ---                   ---
+                             ---                        ---                                              ---                        ---
+    GROUP G 3th vs GROUP E 4th                            ---                                         ---                              GROUP F 3th vs GROUP B 4th
+    --------------------------                              ---                                    ---                                 --------------------------
+                                                               ---                              ---
+                                                                   SEMIFINAL -- FINAL -- SEMIFINAL
+    GROUP B 3th vs GROUP F 4th                                  ---                               ---                                  GROUP C 3th vs GROUP A 4th
+    --------------------------                              ---                                      ---                               --------------------------
+                             ---                         ---                                            ---                         ---
+                                ---                   ---                                                  ---                   ---
+                                   ---   QUARTER FINAL                                                         QUARTER FINAL  ---
+                                ---                                                                                              ---
+                             ---                                                                                                    ---
+    GROUP D 3th vs GROUP C 4th                                                                                                         GROUP H 3th vs GROUP D 4th
     --------------------------                                                                                                          --------------------------
